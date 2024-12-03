@@ -1,13 +1,12 @@
 import Slide from "@/sections/slide";
 import Navbar from "../components/Navbar";
+import Hero from "@/sections/Hero";
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <section>
-      <Navbar/>
-      </section>
-      <section className="w-full min-h-screen">
-        <Slide/>
+        {/* <Slide/> */}
+        <Hero />
       </section>
       <section>
         catgories_1
@@ -17,6 +16,9 @@ export default function Home() {
       </section>
       <section>
         catgories_3
+      </section>
+      <section className="absolute top-0 left-0 w-full h-[100px]">
+      <Navbar/>
       </section>
     </main>
   );

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 // import logo, icon_ham from '../app/assets/images/logo.png'
-import logo_img from '../app/assets/images'
-import icon_ham from '../app/assets/icons'
+import logo_img from '../assets/images'
+import icon_ham from '../assets/icons'
 const Navbar = () => {
   return (
     <header>

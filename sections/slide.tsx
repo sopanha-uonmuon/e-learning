@@ -8,7 +8,11 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-  
+import Image from 'next/image'
+import slide_1 from '../assets/images'
+import slide_2 from '../assets/images'
+import slide_3 from '../assets/images'
+
 const Slide = () => {
 	const plugin = React.useRef(
 		Autoplay({ delay: 5000, stopOnInteraction: true })
@@ -24,9 +28,15 @@ const Slide = () => {
 			onMouseLeave={plugin.current.reset}>
 			
 			<CarouselContent>
-				<CarouselItem><div className='relative w-full h-3/6'>Box_1</div></CarouselItem>
-				<CarouselItem>Box_2</CarouselItem>
-				<CarouselItem>Box_3</CarouselItem>
+				<CarouselItem className='flex justify-center'>
+					<Image src={slide_1.slide_1.src} alt='slide-1' width={960} height={0}></Image>
+				</CarouselItem>
+				<CarouselItem  className='flex justify-center'>
+					<Image src={slide_2.slide_2.src} alt='slide-1' width={960} height={0}></Image>
+				</CarouselItem>
+				<CarouselItem  className='flex justify-center'>
+					<Image src={slide_3.slide_3.src} alt='slide-1' width={960} height={0}></Image>
+				</CarouselItem>
 			</CarouselContent>
 			<CarouselPrevious />
 			<CarouselNext />

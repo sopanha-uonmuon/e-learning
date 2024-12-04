@@ -7,39 +7,36 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
-import Image from 'next/image'
-import slide_1 from '../assets/images'
-import slide_2 from '../assets/images'
-import slide_3 from '../assets/images'
 
-const Slide = () => {
-	const plugin = React.useRef(
-		Autoplay({ delay: 5000, stopOnInteraction: true })
-	  )
+import Image from 'next/image'
+
+type newCourseValue = {
+	thumbnail: string,
+	title:string,
+	details: string
+}
+
+const Slide = ({imgAst}:{imgAst:newCourseValue[]}) => {
   return (
-	<div className='w-full h-auto'>
+	<div className='w-full h-full'>
 		<Carousel 
-			plugins={[plugin.current]}
-			opts={{
-				align: "start",
-			}}
-			onMouseEnter={plugin.current.stop}
-			onMouseLeave={plugin.current.reset}>
-			
+		opts={{
+			align: "start",
+		}}
+		className="w-full h-full">
 			<CarouselContent>
-				<CarouselItem className='flex justify-center'>
-					<Image src={slide_1.slide_1.src} alt='slide-1' width={960} height={0}></Image>
-				</CarouselItem>
-				<CarouselItem  className='flex justify-center'>
-					<Image src={slide_2.slide_2.src} alt='slide-1' width={960} height={0}></Image>
-				</CarouselItem>
-				<CarouselItem  className='flex justify-center'>
-					<Image src={slide_3.slide_3.src} alt='slide-1' width={960} height={0}></Image>
-				</CarouselItem>
-			</CarouselContent>
-			<CarouselPrevious />
-			<CarouselNext />
+					{imgAst.map((data, index) => (
+					<CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+						<div className="p-1">
+							<Image src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
+						</div>
+						<p>{data.title}</p>
+						<p>{data.details}</p>
+					</CarouselItem>
+					))}
+				</CarouselContent>
+				<CarouselPrevious />
+				<CarouselNext />
 		</Carousel>
 	</div>
   )

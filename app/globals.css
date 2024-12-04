@@ -66,6 +66,15 @@
 }
 
 @layer utilities{
+  .desktop_main{
+    @apply relative w-11/12 mx-auto my-0
+  }
+  .small_text_color{
+    @apply text-[#7691a4]
+  }
+  .btn_hover{
+    @apply bg-[#397fb4]
+  }
   .hero_text {
     @apply text-sm
   }

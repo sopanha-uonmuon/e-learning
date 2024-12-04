@@ -1,25 +1,22 @@
 import Slide from "@/sections/slide";
-import Navbar from "../components/Navbar";
 import Hero from "@/sections/Hero";
+import HomeCarousel_1 from "@/sections/HomeCarousel_1";
 export default function Home() {
-  return (
-    <main className="relative w-11/12 mx-auto my-0">
-      <section className="bg-white h-[700px]">
-        {/* <Slide/> */}
-        <Hero />
-      </section>
-      <section>
-        catgories_1
-      </section>
-      <section>
-        catgories_2
-      </section>
-      <section>
-        catgories_3
-      </section>
-      <section className="absolute top-0 left-0 w-full h-[100px]">
-      <Navbar/>
-      </section>
-    </main>
-  );
+	return (
+		<main className="relative w-11/12 mx-auto my-0">
+			<section className="bg-white h-screen min-h-[700px]">
+				<Hero />
+			</section>
+			<section className="bg-white w-full h-[300px]">
+				<HomeCarousel_1/>
+			</section>
+			<section>
+				catgories_2
+			</section>
+			<section>
+				catgories_3
+			</section>
+			
+		</main>
+	);
 }

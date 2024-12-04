@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "@/sections/Hero";
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative w-11/12 mx-auto my-0">
       <section>
         {/* <Slide/> */}
         <Hero />

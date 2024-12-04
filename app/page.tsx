@@ -4,7 +4,7 @@ import Hero from "@/sections/Hero";
 export default function Home() {
   return (
     <main className="relative w-11/12 mx-auto my-0">
-      <section>
+      <section className="bg-white h-[700px]">
         {/* <Slide/> */}
         <Hero />
       </section>

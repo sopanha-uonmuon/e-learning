@@ -65,4 +65,10 @@
   }
 }
 
+@layer utilities{
+  .hero_text {
+    @apply text-sm
+  }
+}
+
 

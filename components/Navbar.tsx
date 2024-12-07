@@ -19,7 +19,9 @@ const Navbar = () => {
                 <div><Link href={'/department_course'}>វគ្គសិស្សាតាមនាយកដ្ធាន</Link></div>
                 <div><Link href={'/by_categories'}>វគ្គសិស្សាតាមប្រភេទ</Link></div>
             </div>
-            <Button className='mr-4 hover:btn_hover' onClick={()=>{alert('login')}}>Log In</Button>
+            <button className='mr-4' onClick={()=>{alert('login')}}>
+              <Image src={assetIcon.icon_ham.src} alt='ham_icon' width={40} height={40}/>
+            </button>
         </nav>
     </header>
   )

@@ -1,4 +1,4 @@
-import Slide from "@/sections/slide";
+import Slide from "@/sections/HomeSlide";
 import Hero from "@/sections/Hero";
 import HomeCarousel_1 from "@/sections/HomeCarousel_1";
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
 			<section className="bg-white h-screen min-h-[700px]">
 				<Hero />
 			</section>
-			<section className="bg-white w-full h-[300px]">
+			<section className="bg-white w-full h-[500px]">
 				<HomeCarousel_1/>
 			</section>
 			<section>

@@ -8,7 +8,7 @@ const HomeCarousel_1 = () => {
         <div className='self-start ml-14'>
             <h1 className='text-xl font-bold'>វគ្គសិស្សាថ្មី</h1>
         </div>
-        <div className='w-11/12'>
+        <div className='w-full h-full'>
             <HomeSlide imgAst={newCourseData}/>
         </div>
     </div>

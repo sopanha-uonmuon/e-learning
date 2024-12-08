@@ -7,7 +7,7 @@ export default function Home() {
 			<section className="bg-white h-screen min-h-[700px]">
 				<Hero />
 			</section>
-			<section className="bg-white w-full h-[500px]">
+			<section className="bg-white w-full h-[700px]">
 				<HomeCarousel_1/>
 			</section>
 			<section>

@@ -78,6 +78,9 @@
   .hero_text {
     @apply text-sm
   }
+  .margin-center{
+    margin: 0 auto;
+  }
 }
 
 

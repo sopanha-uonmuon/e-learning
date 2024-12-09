@@ -6,7 +6,7 @@ import Link from 'next/link'
 const HomeCarousel_2 = () => {
   return (
     <div className='w-full section-h flex flex-col justify-start gap-5'>
-        <div className='flex justify-between'>
+        <div className='flex justify-between khmerfont'>
             <h1 className='text-xl font-bold ml-20 self-start'>វគ្គសិស្សាតាមនាយកដ្ធាន</h1>
 
             <Link href={'/department_course'}>

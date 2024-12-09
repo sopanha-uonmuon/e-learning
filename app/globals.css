@@ -63,9 +63,17 @@
   body {
     @apply bg-background text-foreground bg-stone-100;
   }
+  @font-face{
+    font-family: 'khmeros';
+    src: url('../assets/fonts/khmerossiemreap.ttf');
+    font-style: normal;
+  }
 }
 
 @layer utilities{
+  .khmerfont{
+    font-family: 'khmeros';
+  }
   .desktop_main{
     @apply relative w-11/12 mx-auto my-0
   }

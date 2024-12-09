@@ -2,10 +2,8 @@
 
 import Image from 'next/image'
 import React from 'react'
-// import logo, icon_ham from '../app/assets/images/logo.png'
 import assetImg from '../assets/images'
 import assetIcon from '../assets/icons'
-import { Button } from './ui/button'
 import Link from 'next/link'
 const Navbar = () => {
   return (
@@ -14,7 +12,7 @@ const Navbar = () => {
             <div>
                 <Link href={'/'}><Image src={assetImg.logo_img.src} width={150} height={96} alt="Picture of the author"/></Link>
             </div>
-            <div className='flex justify-evenly w-3/4'>
+            <div className='flex justify-evenly w-3/4 khmerfont'>
                 <div><Link href={'/new_course'}>វគ្គសិស្សាថ្មី</Link></div>
                 <div><Link href={'/department_course'}>វគ្គសិស្សាតាមនាយកដ្ធាន</Link></div>
                 <div><Link href={'/by_categories'}>វគ្គសិស្សាតាមប្រភេទ</Link></div>

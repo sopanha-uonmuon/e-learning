@@ -6,8 +6,8 @@ import React from 'react'
 import assetImg from '../assets/images'
 const Hero = () => {
 	return (
-		<div className='h-full flex justify-center items-center gap-8 mx-10'>
-			<div className='flex flex-col justify-center flex-1'>
+		<div className='h-full flex justify-evenly items-center gap-8 mx-10'>
+			<div className='flex flex-col justify-center'>
 				<div className='watphnom_bold flex flex-col h-[250px] gap-14'>
 					<p className='text-8xl font-semibold'>ការរៀនតាម</p>
 					<p className='text-8xl font-semibold'>អ៊ីនធឺណិត</p>

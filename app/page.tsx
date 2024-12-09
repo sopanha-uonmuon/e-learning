@@ -1,4 +1,3 @@
-import Slide from "@/sections/HomeSlide";
 import Hero from "@/sections/Hero";
 import HomeCarousel_1 from "@/sections/HomeCarousel_1";
 import HomeCarousel_2 from "@/sections/HomeCarousel_2";

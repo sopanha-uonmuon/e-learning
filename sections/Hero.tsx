@@ -7,12 +7,12 @@ import assetImg from '../assets/images'
 const Hero = () => {
 	return (
 		<div className='h-full flex justify-evenly items-center gap-8 mx-10'>
-			<div className='flex flex-col justify-center'>
-				<div className='watphnom_bold flex flex-col h-[250px] gap-14'>
+			<div className='flex flex-col justify-center items-center'>
+				<div className='watphnom_bold flex flex-col h-[250px] gap-14 items-center'>
 					<p className='text-8xl font-semibold'>ការរៀនតាម</p>
 					<p className='text-8xl font-semibold'>អ៊ីនធឺណិត</p>
 				</div>
-				<div className='mt-11 small_text_color freehand leading-9 text-sm'>
+				<div className='mt-11 small_text_color freehand leading-9 text-sm text-center'>
 					<div><p>អ្នកប្រឹក្សាជំនាញបង្រៀនគ្រប់ពេលវេលា គ្រប់ទីកន្លែង</p></div>
 					<div><p>ចូលប្រើវគ្គសិក្សាលំដាប់កំពូលពីភាពងាយស្រួលនៃផ្ទះរបស់អ្នក ឬនៅពេលធ្វើដំណើរ</p></div>
 					<div><p>វេទិការបស់យើងភ្ជាប់អ្នកជាមួយអ្នកជំនាញដែលមានបទពិសោធន៍គ្រប់ពេលវេលា។</p></div>

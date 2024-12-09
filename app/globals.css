@@ -64,15 +64,31 @@
     @apply bg-background text-foreground bg-stone-100;
   }
   @font-face{
-    font-family: 'khmeros';
+    font-family: 'siemreap';
     src: url('../assets/fonts/khmerossiemreap.ttf');
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'watphnom_bold';
+    src: url('../assets/fonts/khmeroswatphnom_bold.ttf');
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'freehand';
+    src: url('../assets/fonts/khmerosfreehand.ttf');
     font-style: normal;
   }
 }
 
 @layer utilities{
-  .khmerfont{
-    font-family: 'khmeros';
+  .siemreap{
+    font-family: 'siemreap';
+  }
+  .watphnom_bold{
+    font-family: 'watphnom_bold';
+  }
+  .freehand{
+    font-family: 'freehand';
   }
   .desktop_main{
     @apply relative w-11/12 mx-auto my-0

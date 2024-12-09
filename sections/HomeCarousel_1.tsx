@@ -4,11 +4,11 @@ import HomeSlide from './HomeSlide'
 
 const HomeCarousel_1 = () => {
   return (
-    <div className='w-full h-full flex flex-col justify-start items-center gap-5'>
-        <div className='self-start ml-14'>
+    <div className='w-full section-h flex flex-col justify-start items-center gap-5'>
+        <div className='self-start ml-20'>
             <h1 className='text-xl font-bold'>វគ្គសិស្សាថ្មី</h1>
         </div>
-        <div className='w-full h-full'>
+        <div className='w-full section-h'>
             <HomeSlide imgAst={newCourseData}/>
         </div>
     </div>

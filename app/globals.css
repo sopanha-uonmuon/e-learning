@@ -81,6 +81,9 @@
   .margin-center{
     margin: 0 auto;
   }
+  .section-h{
+    @apply h-[600px]
+  }
 }
 
 

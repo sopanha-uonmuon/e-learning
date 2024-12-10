@@ -25,25 +25,25 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 			align: "start",
 		}}
 		className='section-h w-11/12'>
-			<CarouselContent className='sm:gap-2 section-h w-11/12 max-[375px]:w-3/4'>
+			<CarouselContent className='sm:gap-2 section-h w-11/12 max-sm:w-3/4'>
 					{imgAst.map((data, index) => (
-					<CarouselItem key={index} className="">
-						<div className='w-11/12 h-[500px] max-[375px]:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
+					<CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+						<div className='w-11/12 h-[500px] max-sm:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
 							<div className="p-1">
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
 							</div>
-							<p className='font-bold my-4 max-[375px]:my-1 ml-4 max-[375px]:ml-1 max-[375px]:text-sm'>{data.title}</p>
-							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-[375px]:ml-1 max-[375px]:text-xs '>{data.details}</p>
-							<div className='h-[50px] pl-3 max-[375px]:pl-0 max-[375px]:h-[30px] max-[375px]:mx-auto max-[375px]:my-2'>
-								<Button className='max-[375px]:h-[30px] max-[375px]:text-xs' onClick={()=>{alert('Add to Collection: ' + data.title)}}>Add to collection</Button>
+							<p className='font-bold my-4 max-sm:my-1 ml-4 max-smml-1 max-sm:text-sm'>{data.title}</p>
+							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:text-xs '>{data.details}</p>
+							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2'>
+								<Button className='max-sm:h-[30px] max-sm:text-xs' onClick={()=>{alert('Add to Collection: ' + data.title)}}>Add to collection</Button>
 							</div>
 						</div>
 						
 					</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious className='max-[375px]:-left-9'/>
-				<CarouselNext className='max-[375px]:-right-9'/>
+				<CarouselPrevious className='max-sm:-left-9'/>
+				<CarouselNext className='max-sm:-right-9'/>
 		</Carousel>
 	</div>
   )

@@ -17,7 +17,7 @@ const Hero = () => {
 					<div><p>ចូលប្រើវគ្គសិក្សាលំដាប់កំពូលពីភាពងាយស្រួលនៃផ្ទះរបស់អ្នក ឬនៅពេលធ្វើដំណើរ</p></div>
 					<div><p>វេទិការបស់យើងភ្ជាប់អ្នកជាមួយអ្នកជំនាញដែលមានបទពិសោធន៍គ្រប់ពេលវេលា។</p></div>
 				</div>
-				<Button className='w-[160px] h-[50px] mt-10 rounded-3xl text-lg hover:btn_hover siemreap' onClick={()=>{alert('Register')}}>ចុះឈ្មោះ</Button>
+				<Button className='w-[160px] max-[375px]:w-[100px] h-[50px] max-[375px]:h-[40px] mt-10 rounded-3xl text-lg max-[375px]:text-sm hover:btn_hover siemreap' onClick={()=>{alert('Register')}}>ចុះឈ្មោះ</Button>
 			</div>
 			<Image className='max-[375px]:hidden' src={assetImg.hero.src} alt='hero' width={650} height={450}/>
 		</div>

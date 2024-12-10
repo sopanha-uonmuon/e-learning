@@ -25,10 +25,10 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 			align: "start",
 		}}
 		className='section-h w-11/12'>
-			<CarouselContent className='sm:gap-2 section-h w-11/12 max-[375px]:w-3/4'>
+			<CarouselContent className='xl:gap-2 section-h w-11/12 max-[375px]:w-3/4'>
 					{imgAst.map((data, index) => (
 					<CarouselItem key={index} className="">
-						<div className='w-11/12 h-[500px] max-[375px]:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
+						<div className='w-11/12 h-[500px] max-[375px]:h-[250px] flex flex-col xl:margin-center shadow-md hover:shadow-xl rounded-lg'>
 							<div className="p-1">
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
 							</div>

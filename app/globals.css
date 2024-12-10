@@ -106,7 +106,7 @@
     margin: 0 auto;
   }
   .section-h{
-    @apply h-[600px]
+    @apply h-[600px] max-[375px]:h-[295px]
   }
 }
 

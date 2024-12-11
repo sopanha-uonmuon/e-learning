@@ -37,10 +37,9 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 							<p className='font-bold my-4 max-sm:my-1 ml-4 max-smml-1 max-sm:text-sm'>{data.title}</p>
 							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:text-xs '>{data.details}</p>
 							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2'>
-								<Button className='max-sm:h-[30px] max-sm:text-xs' onClick={()=>{alert('Add to Collection: ' + data.title)}}>Add to collection</Button>
+								<Button className='max-sm:h-[30px] max-sm:text-xs siemreap max-sm:px-[40px] px-[70px]' onClick={()=>{alert('Add to Collection: ' + data.title)}}>ចូលមើល</Button>
 							</div>
 						</div>
-						
 					</CarouselItem>
 					))}
 				</CarouselContent>

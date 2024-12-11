@@ -43,8 +43,8 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 					</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious className='max-sm:-left-9'/>
-				<CarouselNext className='max-sm:-right-9'/>
+				<CarouselPrevious className='max-sm:-left-12'/>
+				<CarouselNext className='max-sm:-right-12'/>
 		</Carousel>
 	</div>
   )

@@ -24,8 +24,8 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 		opts={{
 			align: "start",
 		}}
-		className='section-h w-full'>
-			<CarouselContent className='sm:gap-2 section-h w-11/12 max-sm:w-2/5'>
+		className='section-h w-11/12 max-sm:w-full'>
+			<CarouselContent className='sm:gap-2 section-h w-11/12 max-sm:w-[48%]'>
 					{imgAst.map((data, index) => (
 					<CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
 
@@ -34,10 +34,10 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 							<div className="p-1">
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
 							</div>
-							<p className='font-bold my-4 max-sm:my-1 ml-4 max-smml-1 max-sm:text-sm'>{data.title}</p>
-							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:text-xs '>{data.details}</p>
-							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2'>
-								<Button className='max-sm:h-[30px] max-sm:text-xs siemreap max-sm:px-[40px] px-[70px]' onClick={()=>{alert('Add to Collection: ' + data.title)}}>ចូលមើល</Button>
+							<p className='font-bold my-4 max-sm:my-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[9px]'>{data.title}</p>
+							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[8px] '>{data.details}</p>
+							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2 margin-center'>
+								<Button className='max-sm:h-[30px] max-sm:text-[9px] siemreap max-sm:px-[40px] px-[70px]' onClick={()=>{alert('Add to Collection: ' + data.title)}}>ចូលមើល</Button>
 							</div>
 						</div>
 					</CarouselItem>

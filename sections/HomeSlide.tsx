@@ -24,12 +24,12 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 		opts={{
 			align: "start",
 		}}
-		className='section-h w-11/12'>
-			<CarouselContent className='sm:gap-2 section-h w-11/12 max-sm:w-3/4'>
+		className='section-h w-full'>
+			<CarouselContent className='sm:gap-2 section-h w-11/12 max-sm:w-2/5'>
 					{imgAst.map((data, index) => (
 					<CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
 
-						<div className='w-11/12 h-[500px] max-sm:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
+						<div className='w-11/12 max-sm:w-full h-[500px] max-sm:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
 
 							<div className="p-1">
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
@@ -43,8 +43,8 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 					</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious className='max-sm:-left-12'/>
-				<CarouselNext className='max-sm:-right-12'/>
+				<CarouselPrevious className='max-sm:left-0'/>
+				<CarouselNext className='max-sm:right-0'/>
 		</Carousel>
 	</div>
   )

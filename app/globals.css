@@ -108,6 +108,9 @@
   .section-h{
     @apply h-[600px] max-sm:h-[295px]
   }
+  .menu-item{
+    @apply flex flex-col items-center gap-2
+  }
 }
 
 

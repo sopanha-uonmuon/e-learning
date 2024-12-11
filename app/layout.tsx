@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import localFont from 'next/font/local'
+import Menus from "@/components/Menus";
 const inter = Inter({ subsets: ["latin"] });
 const myFont = localFont({ src: '../assets/fonts/khmerossiemreap.ttf' })
 export const metadata: Metadata = {
@@ -22,7 +23,9 @@ export default function RootLayout({
         <section>
           <Navbar/>
         </section>
-        {children}</body>
+        {children}
+        <Menus/>
+      </body>
     </html>
   );
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
             <div>
                 <Link href={'/'}><Image className='max-sm:w-[120px]' src={assetImg.logo_img.src} width={150} height={96} alt="Picture of the author"/></Link>
             </div>
-            <div className='flex justify-evenly w-3/4 siemreap max-sm:hidden'>
+            <div className='flex justify-evenly w-3/4 siemreap max-sm:hidden sm-menu'>
                 <div><Link href={'/new_course'}>វគ្គសិស្សាថ្មី</Link></div>
                 <div><Link href={'/department_course'}>វគ្គសិស្សាតាមនាយកដ្ធាន</Link></div>
                 <div><Link href={'/by_categories'}>វគ្គសិស្សាតាមប្រភេទ</Link></div>

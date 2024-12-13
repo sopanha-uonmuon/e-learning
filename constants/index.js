@@ -2,38 +2,115 @@ import assetImg from '../assets/images'
 
 export const newCourseData = [
     {
+        id:0,
         thumbnail: assetImg.slide_1.src,
-        title: 'Lesson1',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        url: 'https://www.youtube.com/embed/P2mBPZ1DYxs?si=Whhl3qJAVoLHf6Wq',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍0",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
     {
+        id:1,
         thumbnail: assetImg.slide_2.src,
-        title: 'Lesson2',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        url: 'https://www.youtube.com/embed/yZdW0NayYpY?si=WEssckSS0IsghBB7',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍0",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
     {
+        id:2,
         thumbnail: assetImg.slide_3.src,
-        title: 'Lesson3',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        url: 'https://www.youtube.com/embed/6L5JkeV9U28?si=N6vbjnlxgk_H4mkk',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍2",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
     {
+        id:3,
         thumbnail: assetImg.slide_3.src,
-        title: 'Lesson3',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        url: 'https://www.youtube.com/embed/8X3LmB9YPzc?si=sWgbzbkhBHtUgebj',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍3",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
     {
+        id:4,
         thumbnail: assetImg.slide_3.src,
-        title: 'Lesson3',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        url: 'https://www.youtube.com/embed/7R7joHCO5Fs?si=-84Byh6R-HrEaFfm',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍4",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
     {
+        id:5,
         thumbnail: assetImg.slide_3.src,
-        title: 'Lesson3',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        url: 'https://www.youtube.com/embed/Su-vXw39ZQY?si=AcX5ji9Dx9BAZC2V',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍5",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        } 
     },
     {
+        id:6,
         thumbnail: assetImg.slide_3.src,
-        title: 'Lesson3',
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." 
+        url: 'https://www.youtube.com/embed/TlNFOByuuKQ?si=ynHt9dasJWzZp5DO',
+        title: 'ឯកឧត្ដម ឌូ ដាលីតូ ចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤',
+        details: "រាជធានីភ្នំពេញ ៖ នាថ្ងៃព្រហស្បតិ៍ ១២កើត ខែមិគសិរ ឆ្នាំរោង ឆស័ក ពុទ្ធសករាជ ២៥៦៨ ត្រូវនឹងថ្ងៃទី១២ ខែធ្នូ ឆ្នាំ២០២៤ នៅទីស្តីការក្រសួងបរិស្ថាន ឯកឧត្ដម ឌូ ដាលីតូ អនុរដ្ឋលេខាធិការ តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្ដម ឆាយ ប្ញទ្ធិសែន រដ្ឋមន្រ្ដីក្រសួងអភិវឌ្ឍន៍ជនបទ បានអញ្ជើញចូលរួមក្នុងកិច្ចប្រជុំស្តីពី របាយការណ៍លទ្ធផលការងារប្រចាំ ឆ្នាំ២០២៤ និងផែនការប្រតិបត្តិប្រចាំ ឆ្នាំ២០២៥ របស់គណៈកម្មាធិការមូលនិធិបរិស្ថាន និងសង្គម ក្រោមអធិបតីភាព ឯកឧត្តមបណ្ឌិត អ៊ាង សុផល្លែត រដ្ឋមន្រ្តីក្រសួងបរិស្ថាន ព្រមទាំងមានការចូលរួមពីតំណាងក្រសួង ស្ថាប័នពាក់ព័ន្ធជាច្រើនរូបទៀត ៕",
+        book_details:{
+            name: "នាយកដ្ឋានអភិវឌ្ឍន៍សហគមន៍6",
+            createdDate: "02/12/2024",
+            times: "4ម៉ោង ៣០នាទី",
+            amountVideos: 5,
+            amountDocs: 5,
+            quizzes: 5,
+            Language: 'ខ្មែរ'
+        }
     },
 ];

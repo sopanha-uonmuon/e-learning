@@ -11,9 +11,9 @@ import {
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { useRouter } from 'next/router';
 
 type newCourseValue = {
+	id:number,
 	thumbnail: string,
 	title:string,
 	details: string
@@ -40,8 +40,8 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 							</div>
 							<p className='font-bold my-4 max-sm:my-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[9px]'>{data.title}</p>
 							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[8px] '>{data.details}</p>
-							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2 margin-center'>
-								<Link href={'/detail_page/123'}>
+							<div className='h-[50px] max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2 margin-center'>
+								<Link href={`/detail_page/${data.id}`}>
 									<Button className='max-sm:h-[30px] max-sm:text-[9px] siemreap max-sm:px-[40px] px-[70px]'>ចូលមើល</Button>
 								</Link>
 							</div>

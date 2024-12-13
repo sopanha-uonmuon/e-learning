@@ -14,7 +14,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
     {
@@ -30,7 +30,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
     {
@@ -46,7 +46,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
     {
@@ -62,7 +62,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
     {
@@ -78,7 +78,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
     {
@@ -94,7 +94,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         } 
     },
     {
@@ -110,7 +110,7 @@ export const newCourseData = [
             amountVideos: 5,
             amountDocs: 5,
             quizzes: 5,
-            Language: 'ខ្មែរ'
+            language: 'ខ្មែរ'
         }
     },
 ];

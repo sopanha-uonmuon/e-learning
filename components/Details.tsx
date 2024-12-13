@@ -21,7 +21,7 @@ const BookDetails = ({bookData, id}:{bookData:newCourseValue[], id:number}) => {
   return (
     <div>
         <div className='sm:desktop_main w-full sm:h-screen max-sm:h-[595px] flex flex-col justify-center items-center bg-white gap-5 siemreap'>
-       <div className='sm:ml-[120px] sm:text-xl siemreap sm:mt-[50px] font-semibold underline underline-offset-4 max-sm:w-3/4 max-sm:text-xs max-sm:text-center max-sm:leading-6'>{bookData[id].title}</div>
+       <div className='sm:text-xl siemreap sm:mt-[50px] font-semibold underline underline-offset-4 max-sm:w-3/4 max-sm:text-xs max-sm:text-center max-sm:leading-6'>{bookData[id].title}</div>
        <iframe width="932" height="630" className='max-sm:w-full max-sm:p-3 max-sm:h-[250px]'
         src={bookData[id].url} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 

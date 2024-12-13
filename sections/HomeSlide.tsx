@@ -10,6 +10,8 @@ import {
 
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 type newCourseValue = {
 	thumbnail: string,
@@ -17,7 +19,10 @@ type newCourseValue = {
 	details: string
 }
 
+
+
 const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
+	
   return (
 	<div className='w-full section-h flex justify-center'>
 		<Carousel 
@@ -30,14 +35,15 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 					<CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
 
 						<div className='w-11/12 max-sm:w-full h-[500px] max-sm:h-[250px] flex flex-col sm:margin-center shadow-md hover:shadow-xl rounded-lg'>
-
 							<div className="p-1">
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
 							</div>
 							<p className='font-bold my-4 max-sm:my-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[9px]'>{data.title}</p>
 							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[8px] '>{data.details}</p>
 							<div className='h-[50px] pl-3 max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2 margin-center'>
-								<Button className='max-sm:h-[30px] max-sm:text-[9px] siemreap max-sm:px-[40px] px-[70px]' onClick={()=>{alert('Add to Collection: ' + data.title)}}>ចូលមើល</Button>
+								<Link href={'/detail_page/123'}>
+									<Button className='max-sm:h-[30px] max-sm:text-[9px] siemreap max-sm:px-[40px] px-[70px]'>ចូលមើល</Button>
+								</Link>
 							</div>
 						</div>
 					</CarouselItem>

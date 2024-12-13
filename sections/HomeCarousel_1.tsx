@@ -7,7 +7,7 @@ const HomeCarousel_1 = () => {
   return (
     <div className='w-full max-sm:w-[90%] section-h flex flex-col justify-start gap-5 max-sm:margin-center'>
         <div className='flex justify-between siemreap'>
-            <h1 className='text-xl max-sm:text-base font-bold sm:ml-20 self-start'>វគ្គសិស្សាថ្មី</h1>
+            <h1 className='text-xl max-sm:text-base font-bold sm:ml-20 self-start'>វគ្គសិក្សារថ្មី</h1>
             <Link className='text-l max-sm:text-sm font-extralight sm:mr-20 underline' href={'/new_course'}>
               <p>មើលបន្ថែម</p>
             </Link>

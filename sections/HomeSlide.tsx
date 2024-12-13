@@ -39,7 +39,7 @@ const HomeSlide = ({imgAst}:{imgAst:newCourseValue[]}) => {
 								<Image className='rounded-lg' src={data.thumbnail} alt='slide-1' width={960} height={0}></Image>
 							</div>
 							<p className='font-bold my-4 max-sm:my-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[9px]'>{data.title}</p>
-							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 ml-4 max-sm:ml-1 max-sm:px-1 max-sm:text-[8px] '>{data.details}</p>
+							<p className='text-ellipsis overflow-hidden whitespace-pre-line flex-1 mx-4 mb-2 max-sm:ml-1 max-sm:px-1 max-sm:text-[8px] '>{data.details}</p>
 							<div className='h-[50px] max-sm:pl-0 max-sm:h-[30px] max-sm:mx-auto max-sm:my-2 margin-center'>
 								<Link href={`/detail_page/${data.id}`}>
 									<Button className='max-sm:h-[30px] max-sm:text-[9px] siemreap max-sm:px-[40px] px-[70px]'>ចូលមើល</Button>

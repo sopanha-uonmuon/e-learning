@@ -1,5 +1,5 @@
 import React from 'react'
-import {newCourseData} from '../constants'
+import {newCourseData, department_course} from '../constants'
 import HomeSlide from './HomeSlide'
 import Link from 'next/link'
 
@@ -16,7 +16,7 @@ const HomeCarousel_2 = () => {
    
 </div>
 <div className='w-full flex-1'>
-    <HomeSlide imgAst={newCourseData}/>
+    <HomeSlide imgAst={department_course}/>
 </div>
 </div>
     

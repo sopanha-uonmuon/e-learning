@@ -36,9 +36,9 @@ const BookDetails = ({bookData, id}:{bookData:newCourseValue[], id:number}) => {
           <Button className='w-[200px] h-[50px] max-sm:w-[160px] max-sm:h-[40px] rounded-md text-lg max-sm:text-sm hover:btn_hover siemreap' onClick={()=>{alert('Register')}}>ចុះឈ្មោះ</Button>
         </div>
     </div>
-    <div className='h-auto bg-white relative max-sm:w-full w-11/12 sm:desktop_main flex items-center'>
-      <div className='h-[500px] flex flex-col gap-5 content-evenly items-center'>
-        <div className='w-full border-t-2 border-gray-300 bg-white'></div>
+    <div className='h-[500px] bg-white relative max-sm:w-full w-11/12 sm:desktop_main flex items-center'>
+      <div className='h-full flex flex-col gap-5 content-evenly items-center'>
+        <div className='w-full border-t-2 border-gray-300 bg-white mt-7'></div>
         <div className='w-3/4 siemreap max-sm:text-sm max-sm:leading-7'>{bookData[id].details}</div> 
       </div>
         

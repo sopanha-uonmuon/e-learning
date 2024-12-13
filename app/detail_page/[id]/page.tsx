@@ -8,7 +8,6 @@ type BookId = {
 
 const DetailPage = async ({params}:BookId) => {
   const id = (await params).id
-  console.log(id)
   return (
     <div>
       <BookDetails bookData={newCourseData} id={id}/>
